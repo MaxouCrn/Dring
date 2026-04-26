@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dring</string>
+    <string name="widget_poke_label">Envoyer un Dring</string>
+    <string name="widget_small_desc">Dring (1x1) — un tap envoie un Dring aléatoire</string>
+    <string name="widget_large_desc">Dring (4x2) — choisis le type de Dring à envoyer</string>
+    <string name="widget_large_title">Dring</string>
+    <string name="notification_channel_name">Pokes</string>
+    <string name="notification_channel_desc">Notifications de Dring</string>
+</resources>

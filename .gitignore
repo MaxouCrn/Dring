@@ -1,0 +1,48 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.gradle/
+.cxx/
+.externalNativeBuild/
+
+# Local config
+local.properties
+
+# Build outputs
+/build/
+**/build/
+/captures/
+release/
+
+# Keystore / signing
+*.jks
+*.keystore
+keystore.properties
+
+# Logs / native
+*.log
+hs_err_pid*
+*.hprof
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Secrets (Supabase service-role JSON, FCM service account)
+*service-account*.json
+*serviceAccount*.json
+.env
+.env.local
+.env.*.local
+
+# Supabase CLI local state
+supabase/.branches
+supabase/.temp
+
+# Claude Code local
+.claude/
